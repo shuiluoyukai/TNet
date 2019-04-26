@@ -11,6 +11,7 @@
 ## Running
 ```
 THEANO_FLAGS="device=cuda0, optimizer=fast_compile" python main.py -ds_name [YOUR_DATASET_NAME] -connection_type [AS|LF]
+THEANO_FLAGS="device=cuda0, optimizer=fast_compile, floatX=float32" python3 main.py -ds_name Twitter/raw_data -connection_type AS
 ```
 
 ## Environment
